@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌍 GlobeData Explorer API - Your Gateway to Comprehensive Global Country Data</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/index.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="hero">
+        <div class="hero-background">
+            <svg class="world-map" viewBox="0 0 1000 500" xmlns="http://www.w3.org/2000/svg">
+                <!-- Simplified world map SVG -->
+                <path d="M150 200 L200 180 L250 200 L300 190 L350 200 L400 180 L450 200 L500 190 L550 200 L600 180 L650 200 L700 190 L750 200 L800 180 L850 200" 
+                      stroke="#007BFF" stroke-width="2" fill="none" opacity="0.3"/>
+                <path d="M100 250 L150 230 L200 250 L250 240 L300 250 L350 230 L400 250 L450 240 L500 250 L550 230 L600 250 L650 240 L700 250 L750 230 L800 250" 
+                      stroke="#007BFF" stroke-width="2" fill="none" opacity="0.3"/>
+                <path d="M120 300 L170 280 L220 300 L270 290 L320 300 L370 280 L420 300 L470 290 L520 300 L570 280 L620 300 L670 290 L720 300 L770 280 L820 300" 
+                      stroke="#007BFF" stroke-width="2" fill="none" opacity="0.3"/>
+                <!-- Add some dots for countries -->
+                <circle cx="200" cy="200" r="3" fill="#007BFF" opacity="0.5"/>
+                <circle cx="400" cy="180" r="3" fill="#007BFF" opacity="0.5"/>
+                <circle cx="600" cy="200" r="3" fill="#007BFF" opacity="0.5"/>
+                <circle cx="800" cy="190" r="3" fill="#007BFF" opacity="0.5"/>
+            </svg>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">🌍 GlobeData Explorer API</h1>
+                <p class="hero-subtitle">Your Gateway to Comprehensive Global Country Data</p>
+                <p class="hero-description">Unlock detailed country information for travel apps, research, and more with fast, reliable access.</p>
+                <a href="https://rapidapi.com/WELF9I/api/globedata-explorer" class="cta-button" target="_blank">
+                    Get Started
+                    <svg class="cta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Overview Section -->
+    <section class="overview">
+        <div class="container">
+            <h2 class="section-title">🔍 Why Choose GlobeData Explorer?</h2>
+            <div class="overview-content">
+                <div class="overview-description">
+                    <p>GlobeData Explorer API is the most developer-friendly solution for accessing detailed country data, including 14+ fields like flag emojis and neighbors.</p>
+                    <ul class="feature-list">
+                        <li>✅ Rich Data: 14+ fields, including flag emojis and neighbors</li>
+                        <li>✅ Fast Access: Optimized for quick responses</li>
+                        <li>✅ Free to Start: No credit card needed for the free tier</li>
+                        <li>✅ Interactive Docs: Explore at <a href="https://globe-data-api.onrender.com/docs" target="_blank">https://globe-data-api.onrender.com/docs</a></li>
+                        <li>✅ Community-Driven: Suggest features via RapidAPI!</li>
+                    </ul>
+                </div>
+                <div class="comparison-table">
+                    <h3>Feature Comparison</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Feature</th>
+                                <th>GlobeData Explorer</th>
+                                <th>Competitor A</th>
+                                <th>Competitor B</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Free Tier</td>
+                                <td>✅ Yes</td>
+                                <td>❌ No</td>
+                                <td>✅ Yes</td>
+                            </tr>
+                            <tr>
+                                <td>Data Fields</td>
+                                <td>📋 14+</td>
+                                <td>📋 8-10</td>
+                                <td>📋 10-12</td>
+                            </tr>
+                            <tr>
+                                <td>Filtering Options</td>
+                                <td>✅ Continent</td>
+                                <td>❌ None</td>
+                                <td>✅ Continent</td>
+                            </tr>
+                            <tr>
+                                <td>Flag Emojis</td>
+                                <td>✅ Included</td>
+                                <td>❌ Missing</td>
+                                <td>❌ Missing</td>
+                            </tr>
+                            <tr>
+                                <td>Neighbor Countries</td>
+                                <td>✅ Included</td>
+                                <td>❌ Missing</td>
+                                <td>❌ Partial</td>
+                            </tr>
+                            <tr>
+                                <td>OpenAPI Documentation</td>
+                                <td>✅ Complete</td>
+                                <td>❌ Partial</td>
+                                <td>✅ Complete</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">🌟 Key Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🌐</div>
+                    <h3>Comprehensive Country Data</h3>
+                    <p>Access ISO codes, names, capitals, population, area, continent, currency, phone codes, languages, neighbors, and flag emojis.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Powerful Querying</h3>
+                    <p>Support for pagination (page, limit), continent filtering, and fast lookups by ISO/ISO3 codes.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">👨‍💻</div>
+                    <h3>Developer Friendly</h3>
+                    <p>Clean RESTful API, TypeScript definitions, thorough documentation, and structured errors.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- API Endpoints Section -->
+    <section class="api-endpoints">
+        <div class="container">
+            <h2 class="section-title">📚 API Endpoints</h2>
+            <div class="endpoints-grid">
+                <div class="endpoint-card">
+                    <h3>Get All Countries</h3>
+                    <div class="endpoint-method">GET /countries</div>
+                    <p><strong>Parameters:</strong> page (default: 1), limit (default: 10, max: 250), continent (e.g., 'EU', 'AS')</p>
+                    <div class="code-block">
+                        <pre><code>{
+  "data": [
+    {
+      "iso_code": "CN",
+      "name": "China",
+      "flag_emoji": "🇨🇳",
+      "capital": "Beijing",
+      "population": 1411778724,
+      "continent_code": "AS",
+      "currency_code": "CNY",
+      "neighbours": ["LA", "BT", "TJ", "KZ"]
+    }
+  ],
+  "pagination": {
+    "total": 195,
+    "page": 1,
+    "limit": 1,
+    "total_pages": 195
+  }
+}</code></pre>
+                    </div>
+                </div>
+                <div class="endpoint-card">
+                    <h3>Get Single Country</h3>
+                    <div class="endpoint-method">GET /countries/{code}</div>
+                    <p>Find by ISO 2-letter or 3-letter code (e.g., 'US')</p>
+                    <div class="code-block">
+                        <pre><code>{
+  "data": {
+    "iso_code": "US",
+    "iso3_code": "USA",
+    "name": "United States",
+    "capital": "Washington",
+    "flag_emoji": "🇺🇸",
+    "population": 331449281,
+    "continent_code": "NA",
+    "currency_code": "USD",
+    "phone_code": "1"
+  }
+}</code></pre>
+                    </div>
+                </div>
+                <div class="endpoint-card">
+                    <h3>Get Continents</h3>
+                    <div class="endpoint-method">GET /countries/continents</div>
+                    <p>List all continents with codes and names</p>
+                    <div class="code-block">
+                        <pre><code>{
+  "data": [
+    {
+      "code": "AS",
+      "name": "Asia"
+    },
+    {
+      "code": "EU",
+      "name": "Europe"
+    },
+    {
+      "code": "NA",
+      "name": "North America"
+    }
+  ]
+}</code></pre>
+                    </div>
+                </div>
+            </div>
+            <div class="try-it-section">
+                <a href="https://globedata-explorer.p.rapidapi.com/docs" class="try-it-button" target="_blank">
+                    Try It Now
+                    <svg class="button-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Integration Guides Section -->
+    <section class="integration-guides">
+        <div class="container">
+            <h2 class="section-title">🛠️ Integration Guides</h2>
+            <div class="integration-tabs">
+                <div class="tab-buttons">
+                    <button class="tab-button active" data-tab="javascript">JavaScript</button>
+                    <button class="tab-button" data-tab="python">Python</button>
+                    <button class="tab-button" data-tab="curl">cURL</button>
+                </div>
+                <div class="tab-content">
+                    <div class="tab-panel active" id="javascript">
+                        <div class="code-block">
+                            <pre><code>const options = {
+  method: 'GET',
+  headers: {
+    'x-rapidapi-host': 'globedata-explorer.p.rapidapi.com',
+    'x-rapidapi-key': 'YOUR_API_KEY'
+  }
+};
+
+fetch('https://globedata-explorer.p.rapidapi.com/countries/US', options)
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(err => console.error(err));</code></pre>
+                        </div>
+                    </div>
+                    <div class="tab-panel" id="python">
+                        <div class="code-block">
+                            <pre><code>import requests
+
+url = "https://globedata-explorer.p.rapidapi.com/countries/US"
+
+headers = {
+    "x-rapidapi-host": "globedata-explorer.p.rapidapi.com",
+    "x-rapidapi-key": "YOUR_API_KEY"
+}
+
+response = requests.get(url, headers=headers)
+print(response.json())</code></pre>
+                        </div>
+                    </div>
+                    <div class="tab-panel" id="curl">
+                        <div class="code-block">
+                            <pre><code>curl --request GET \
+  --url https://globedata-explorer.p.rapidapi.com/countries/US \
+  --header 'x-rapidapi-host: globedata-explorer.p.rapidapi.com' \
+  --header 'x-rapidapi-key: YOUR_API_KEY'</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>🌍 GlobeData Explorer API</h4>
+                    <p>Your gateway to comprehensive global country data</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="https://rapidapi.com/WELF9I/api/globedata-explorer" target="_blank">Subscribe</a></li>
+                        <li><a href="https://globe-data-api.onrender.com/docs" target="_blank">Documentation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>📧 welfkimedamine@gmail.com</p>
+                    <p>💬 RapidAPI Support</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© <span id="current-year"></span> GlobeData Explorer API. All rights reserved.</p>
+            </div>
+          <script>
+            document.getElementById('current-year').textContent = new Date().getFullYear();
+        </script>
+        </div>
+    </footer>
+
+    <script src="src/script.js"></script>
+</body>
+</html>
